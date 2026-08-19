@@ -11,17 +11,23 @@ Local and regional governments rely on Geographic Information System (GIS) datas
 ## Contents
 This GitHub repository contains code featured in the above paper, which is consistent of four scripts that were utilized during data processing, where we adapted a managed urban infrastructure datasets into a format that is conductive to study connectivity through the lens of graph theory.
 
-Script 1:
+Directionality Checker:
+The geometry checker is a software tool that allows the user to evaluate multiple aspects of a road dataset to evaluate if the dataset is complete and is suitable for graph-theoretical operations with NetworkX (Python).
+1)	Types of Geometries present in the dataset (MultiLineString, LineString).
+2)	Number of records in each geometry type.
+3)	Average Number of Parts for Each Geometry Type (typically 1 if LineString)
+4)	Validity of All Geometries (Valid/Invalid).
+5)	List of field columns and percent completeness of each field column (e.g. Figure 4.1).
+<br/>
+[geom_check.py ...]<br/>
+[link]<br/>
+
+One/Two Way Road Segment Processor:
 [Description]<br/>
 [Usage]<br/>
 [link]<br/>
 
-Script 2:
-[Description]<br/>
-[Usage]<br/>
-[link]<br/>
-
-Script 3:
+Anomaly Flagging/Screening:
 [Description]<br/>
 [Usage]<br/>
 [link]<br/>
