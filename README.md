@@ -11,7 +11,7 @@ Local and regional governments rely on Geographic Information System (GIS) datas
 ## Contents
 This GitHub repository contains code featured in the above paper, which is consistent of four scripts that were utilized during data processing, where we adapted a managed urban infrastructure datasets into a format that is conductive to study connectivity through the lens of graph theory.
 
-## [Geometry Checker](Scripts/geom_check.py)
+## [Graph Checker](Scripts/graph_check.py)
 ### Description:
 &emsp; The geometry checker is a software tool that allows the user to evaluate multiple aspects of a road dataset to evaluate if the dataset is
 &emsp;&nbsp;&nbsp;&nbsp; complete and is suitable for graph-theoretical operations with NetworkX (Python).<br/>
