@@ -20,7 +20,10 @@ The geometry checker is a software tool that allows the user to evaluate multipl
 5)	List of field columns and percent completeness of each field column (e.g. Figure 4.1).
 <br/>
 <br/>
-[Geometry Checker](Scripts/geom_check.py)<br/>
+
+[Geometry Checker](Scripts/geom_check.py)
+
+<br/>
 
 One/Two Way Road Segment Processor:
 [Description]<br/>
