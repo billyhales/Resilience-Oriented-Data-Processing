@@ -11,24 +11,15 @@ Local and regional governments rely on Geographic Information System (GIS) datas
 ## Contents
 This GitHub repository contains code featured in the above paper, which is consistent of four scripts that were utilized during data processing, where we adapted a managed urban infrastructure datasets into a format that is conductive to study connectivity through the lens of graph theory.
 
-Directionality Checker:
-The geometry checker is a software tool that allows the user to evaluate multiple aspects of a road dataset to evaluate if the dataset is complete and is suitable for graph-theoretical operations with NetworkX (Python).
-1)	Types of Geometries present in the dataset (MultiLineString, LineString).
-2)	Number of records in each geometry type.
-3)	Average Number of Parts for Each Geometry Type (typically 1 if LineString)
-4)	Validity of All Geometries (Valid/Invalid).
-5)	List of field columns and percent completeness of each field column (e.g. Figure 4.1).
-<br/>
-<br/>
-
-[Geometry Checker](Scripts/geom_check.py)
+## [Geometry Checker](Scripts/geom_check.py)
 ### Description:
-The geometry checker is a software tool that allows the user to evaluate multiple aspects of a road dataset to evaluate if the dataset is complete and is suitable for graph-theoretical operations with NetworkX (Python).<br/>
-1. Types of Geometries present in the dataset (MultiLineString, LineString).<br/>
-2. Number of records in each geometry type.<br/>
-3. Average Number of Parts for Each Geometry Type (typically 1 if LineString)<br/>
-4. Validity of All Geometries (Valid/Invalid).<br/>
-5. List of field columns and percent completeness of each field column (e.g. Figure 4.1). *Need to update* <br/>
+&emsp; The geometry checker is a software tool that allows the user to evaluate multiple aspects of a road dataset to evaluate if the dataset is
+&emsp;&nbsp;&nbsp;&nbsp; complete and is suitable for graph-theoretical operations with NetworkX (Python).<br/>
+&emsp; 1. Types of Geometries present in the dataset (MultiLineString, LineString).<br/>
+&emsp; 2. Number of records in each geometry type.<br/>
+&emsp; 3. Average Number of Parts for Each Geometry Type (typically 1 if LineString)<br/>
+&emsp; 4. Validity of All Geometries (Valid/Invalid).<br/>
+&emsp; 5. List of field columns and percent completeness of each field column (e.g. Figure 4.1). *Need to update* <br/>
 
 ### Usage:
 &emsp; python geom_check.py [-h] [-r] [-o OUTPUT] filename<br/><br/>
