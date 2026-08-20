@@ -22,10 +22,25 @@ The geometry checker is a software tool that allows the user to evaluate multipl
 <br/>
 
 [Geometry Checker](Scripts/geom_check.py)
+### Description:
+The geometry checker is a software tool that allows the user to evaluate multiple aspects of a road dataset to evaluate if the dataset is complete and is suitable for graph-theoretical operations with NetworkX (Python).<br/>
+1. Types of Geometries present in the dataset (MultiLineString, LineString).<br/>
+2. Number of records in each geometry type.<br/>
+3. Average Number of Parts for Each Geometry Type (typically 1 if LineString)<br/>
+4. Validity of All Geometries (Valid/Invalid).<br/>
+5. List of field columns and percent completeness of each field column (e.g. Figure 4.1). *Need to update* <br/>
 
+### Usage:
+&emsp; python geom_check.py [-h] [-r] [-o OUTPUT] filename<br/><br/>
+&emsp; options:<br/>
+&emsp;  -h, --help &emsp;&emsp;&emsp;&nbsp;&nbsp;   show this help message and exit<br/>
+&emsp;  -r, --repair &emsp;&emsp;&emsp;  Attempt to repair issues such as automatically converting geomtries that are not conductive to<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;  graph-theoretical operations to ones that are. on the data, do not fix anything. Output file<br/>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;  will be original with the word 'edited' at the end.<br/>
+&emsp;-o, --output &emsp;&emsp;&nbsp;&nbsp;&nbsp; Output file name for report (MS Excel). If omitted, will only output summary results on-screen<br/>
 <br/>
 
-One/Two Way Road Segment Processor:
+[One/Two Way Road Segment Processor](Scripts/direction_checker)
 [Description]<br/>
 [Usage]<br/>
 [link]<br/>
