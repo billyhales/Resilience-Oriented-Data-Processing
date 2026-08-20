@@ -13,7 +13,7 @@ This GitHub repository contains code featured in the above paper, which is consi
 
 ## [Graph Checker](Scripts/graph_check.py)
 ### Description:
-&emsp; The geometry checker is a software tool that allows the user to evaluate multiple aspects of a road dataset to evaluate if the dataset is
+&emsp; The graph checker is a software tool that allows the user to evaluate multiple aspects of a road dataset to evaluate if the dataset is
 &emsp;&nbsp;&nbsp;&nbsp; complete and is suitable for graph-theoretical operations with NetworkX (Python).<br/>
 &emsp; 1. Types of Geometries present in the dataset (MultiLineString, LineString).<br/>
 &emsp; 2. Number of records in each geometry type.<br/>
