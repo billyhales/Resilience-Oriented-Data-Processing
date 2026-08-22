@@ -1,10 +1,5 @@
-import os, argparse, re
-import numpy as np, networkx as nx, pandas as pd, geopandas as gpd, matplotlib.pyplot as plt, osmnx as ox
-from shapely.ops import transform
-from shapely.geometry import LineString
-import xml.etree.ElementTree as ET
-import copy
-import matplotlib.ticker as ticker
+import os, argparse
+import numpy as np, pandas as pd, geopandas as gpd
 from argparse import RawDescriptionHelpFormatter
 
 def multi2single(gpdf):
